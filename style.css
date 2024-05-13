@@ -30,3 +30,31 @@ section {
     line-height: 100px; 
     font-size: 40px; 
 }
+
+.gametitle {
+    padding-top: 30px;
+    font-size: 36px; 
+}
+
+.gamecontainer {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 300px; 
+    margin: 40px auto; 
+}
+
+.gamerestart {
+    margin-bottom: 20px;
+    height: 40px; 
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #fa00fa;
+    cursor: pointer;
+    font-size: 20px; 
+}
+
+.gamerestart:hover {
+    transition: 0.25s;
+    background-color: #c1a2fe;
+}
