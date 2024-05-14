@@ -62,7 +62,7 @@ const winningConditions = [
     [2, 4, 6]
 ];
 
-function handleResultValdation() {
+function handleResultValidation() {
     let roundWon = false;
     for (let i = 0; i < winningConditions.length; i++) {
         const winCondition = winningConditions[i];
