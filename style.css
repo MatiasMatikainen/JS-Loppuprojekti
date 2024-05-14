@@ -54,6 +54,10 @@ section {
     font-size: 20px; 
 }
 
+.game--status {
+    font-size: 24px; 
+}
+
 .gamerestart:hover {
     transition: 0.25s;
     background-color: #c1a2fe;
