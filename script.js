@@ -98,3 +98,14 @@ function handlePlayerChange() {
     currentPlayer = currentPlayer === "Pelajaa" ? "Tietokone" : "Pelajaa";
     statusDisplay.innerHTML = currentPlayerTurn();
 }
+
+function handleRestartGame() {
+    gameActive = true;
+    currentPlayer = "Pelajaa";
+    gameState = ["", "", "", "", "", "", "", "", ""];
+    statusDisplay.innerHTML = currentPlayerTurn();
+    document.querySelectorAll('.cell').forEach(cell => {
+        cell.innerHTML = "";
+        cell.addEventListener('click', handleCellClick); 
+    });
+}
